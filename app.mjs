@@ -13,7 +13,7 @@ const scrapeInstagram = async(req, res) => {
     }),
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Basic UzAwMDAyMzI3MzE6UFdfMTA2YWYzNTllOTgwNzFhNTJhMjdlNzllMDdhMjEyZmFh"
+      "Authorization": ""
     },
   }).catch(error => console.log(error));
 
